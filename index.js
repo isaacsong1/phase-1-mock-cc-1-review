@@ -118,3 +118,29 @@
 
         reduce(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value
 */
+
+//TODO: JavaScript and The DOM Quiz
+/*
+    Methods:
+        querySelector("HTMLement"): Returns the first element that matches the given CSS selector
+            - Can use textContent to return the text of given CSS selector
+
+        getElementById("HTMLID"): Returns the element given by the ID as a string
+
+        remove(): Removes the HTML element that the method is called on
+
+        querySelectorAll(): Returns all elements that match the CSS selector argument
+
+        getElementsByTagName(): Takes a tag name as a string and returns an HTML collection with the specified tag name
+
+        getElementsByClassName(): Takes a class name as a string and returns all the elements with the specified class name
+
+    When using Chrome DevTools to manipulate the DOM, the changes in the DOM do not affect the HTML file on the server
+
+    The Document Object Model (DOM) is represented as a tree of nodes
+
+    Order of Specificity:
+        Most Specific: document.getElementById()
+        Medium Specific: document.getElementsByClassName()
+        Least Specific: document.getElementsByTagName()
+*/
