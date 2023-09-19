@@ -50,3 +50,29 @@
         Compilation Phase: Allocates memory, sets up references to variables, and adds a reference to the appropriate scope chain for functions
         Execution Phase:Runs our code line-by-line, assigning values to variables and calling functions
 */
+
+//TODO: Working with Objects in JavaScript Quiz
+/*
+    for ... in: Iterates over all enumberable properties of an object that are keyed by strings, including inherited enumerable properties
+    Example:
+        const address = {
+            name: "P. Sherman",
+            street2: "42 Wallaby Way",
+            city: "Sydney",
+            state: "New South Whales",
+            country: "AUS",
+        };
+        for (const key in address) {
+            console.log(address[key])
+        }
+        By using the bracket operator, we are successfully able to access the objects values
+
+    Object values can be re-assigned
+
+    Spread Operator: Can be used on arrays and objects
+        Can non-destructively create a copy of the array or object
+
+    Methods:
+        Object.assign(): Copies all enumerable properties from one or more source objects to a target object
+            Can be used to combine two objects into one object
+*/
