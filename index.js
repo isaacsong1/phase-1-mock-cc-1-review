@@ -76,3 +76,45 @@
         Object.assign(): Copies all enumerable properties from one or more source objects to a target object
             Can be used to combine two objects into one object
 */
+
+//TODO: Working with Arrays in JavaScript Quiz
+/*
+    Methods:
+        filter(callbackFn): Creates a new array with all elements that pass the test implemented by the provided function
+        Example:
+            let artists = [
+                "Smash Mouth",
+                "Janelle Monae",
+                "SZA",
+                "Thunder Cat",
+                "Frank Ocean",
+                "Solange",
+            ];
+            artists. _________ (function (artist) {
+                return artist.startsWith("S");
+            });
+
+        forEach(callbackFn): Executes a provided function once for each array element. Does not have a built-in return value
+        Example:
+            Iterate through an array to log values
+            Iterate over an array and directly mutate elements
+
+        find(callbackFn): Returns the value of the first element in the provided array that satisfies the provided testing function
+        Example:
+            let artists = [
+                "Smash Mouth",
+                "Janelle Monae",
+                "SZA",
+                "Thunder Cat",
+                "Frank Ocean",
+                "Solange",
+            ];
+            artists. _________ (function (artist) {
+                return artist.startsWith("S");
+            });
+
+        map(callbackFn): Creates a new array populated with the results of calling a provided function on every element in the calling array
+            Returns a new array with the same number of elements as the original array
+
+        reduce(callbackFn, initialValue): Executes a reducer function on each element of the array, resulting in a single output value
+*/
