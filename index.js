@@ -144,3 +144,16 @@
         Medium Specific: document.getElementsByClassName()
         Least Specific: document.getElementsByTagName()
 */
+
+//TODO: JavaScript Events Quiz
+/*
+    Methods:
+        addEventListener('event', callbackFn): Called on the element to listen for the 'event'
+            'Event' Examples:
+                'click'
+                'submit': Event fires when a form is submitted (Use .value for input boxes/text boxes)
+                'keydown': Event fires when a key is pressed (event.code === 'Space')
+                'DOMContentLoaded': Event fires when your page's DOM is fully parsed from the underlying html
+            'Event' Methods:
+                preventDefault(): Prevents page refresh when submit event is fired
+*/
