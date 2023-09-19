@@ -39,3 +39,14 @@
         }
         innerFn() has access to outerVar, as well as outerParam
 */
+
+//TODO: Scope Quiz
+/*
+    Closure: Gives us access to an outer function's variables from an inner function
+    Lexical Scope: For variables defined using const or let, a variable defined outside a function can be accessible inside the function, but not the other way around
+    Scope Chain: All variables and functions declared in outer scopes are availble in inner scopes via scope chain
+
+    When our JS code is run in the browser, the JS engine makes two separate passes over our code: "compilation" and "execution"
+        Compilation Phase: Allocates memory, sets up references to variables, and adds a reference to the appropriate scope chain for functions
+        Execution Phase:Runs our code line-by-line, assigning values to variables and calling functions
+*/
