@@ -157,3 +157,21 @@
             'Event' Methods:
                 preventDefault(): Prevents page refresh when submit event is fired
 */
+
+//TODO: Communicating with the Server Quiz
+/*
+    Elements included when browser SENDS an HTTP REQUEST:
+        - HTTP Verb
+        - Headers
+        - URL
+    Elements included when browser RECEIVES an HTTP RESPONSE:
+        - Body
+        - Headers
+        - Status Code
+    
+    Asynchronous Functions:
+        setTimeout(callbackFn): Waits a specified number of milliseconds and then executes callbackFn
+        fetch(URL): Sends request to the URL API and returns a promise object
+
+    JSON.stringify(data): Converts a JavaScript value to a JSON string
+*/
